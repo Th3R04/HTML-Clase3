@@ -9,3 +9,37 @@
 .heading {
     color: #ff0080;
   }
+
+.cards{
+    border: 2px solid black;
+    width: fit-content;
+    padding: 01em 1em 1em 1em;
+    border-radius: 10%;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+}
+
+.imagen{
+     height: auto ;
+     width: auto ;
+}
+
+.titulo{
+    color: aqua;
+}
+
+#Cards-Container{
+    background-color: black;
+    width: 85vw;
+    margin: auto;
+    margin-top: 1.5em;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
